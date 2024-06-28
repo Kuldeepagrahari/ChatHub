@@ -13,6 +13,9 @@ const Chat = lazy(() => {
 const Groups = lazy(() => {
   return import("./pages/Groups.jsx")
 })
+
+
+
 const App = () => {
   return (
     <BrowserRouter>
